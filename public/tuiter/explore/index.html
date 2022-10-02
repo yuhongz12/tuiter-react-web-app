@@ -4,32 +4,67 @@
     <meta charset="UTF-8">
     <title>Explore</title>
 </head>
+<link href="index.css" rel="stylesheet">
 <body>
   <div class="wd-content">
-      <input type="text" placeholder="Search Tuiter">
-      <a href="explore-settings.html">GearIcon</a>
+      <div class="wd-content-border">
+          <div class="wd-content-search">
+    <!--          TODO: REMOVE INLINE CSS-->
+              <input class="wd-content-search-bar" type="text" placeholder="Search Tuiter">
+              <a class="wd-content-search-gear" href="explore-settings.html">&#9881;</a>
 
-      <ol class="wd-content-nav">
-          <li class="wd-content-nav-items"><a href="#">For you</a></li>
-          <li class="wd-content-nav-items"><a href="#">Trending</a></li>
-          <li class="wd-content-nav-items"><a href="#">COVID-19</a></li>
-          <li class="wd-content-nav-items"><a href="#">News</a></li>
-          <li class="wd-content-nav-items"><a href="#">Sports</a></li>
-          <li class="wd-content-nav-items"><a href="#">Entertainment</a></li>
-      </ol>
+          </div>
 
-      <ol class="wd-content-stories">
-          <li class="wd-content-stories-trending">
-              <p class="wd-stories-fine-print">Trending in Science</p>
-              <h3 class="wd-stories-title">Starship</h3>
-              <p class="wd-stories-fine-print">55.5k Tuits</p>
-          </li>
-          <li class="wd-content-stories-trending">
-              <p class="wd-stories-fine-print">Trending in Science</p>
-              <h3 class="wd-stories-title">Starship</h3>
-              <p class="wd-stories-fine-print">55.5k Tuits</p>
-          </li>
-      </ol>
+
+              <ul class="wd-content-nav">
+                  <li class="wd-content-nav-items wd-nav-items-active"><a href="#" class="wd-nav-items-active">For you</a></li>
+                  <li class="wd-content-nav-items"><a href="#">Trending</a></li>
+                  <li class="wd-content-nav-items"><a href="#">COVID-19</a></li>
+                  <li class="wd-content-nav-items"><a href="#">News</a></li>
+                  <li class="wd-content-nav-items"><a href="#">Sports</a></li>
+                  <li class="wd-content-nav-items"><a href="#">Entertainment</a></li>
+              </ul>
+      </div>
+
+      <div class="wd-content-border" style="height:5px">
+
+      </div>
+      <div class="wd-content-border">
+          <ol class="wd-content-stories">
+              <li class="wd-content-border wd-content-stories-trending">
+                  <div class="wd-stories-content">
+                      <div class="wd-stories-header">
+                          <p class="wd-stories-fine-print">Trending in Science</p>
+                      </div>
+                      <h3 class="wd-stories-title">Starship</h3>
+                      <p class="wd-stories-fine-print">55.5k Tuits</p>
+                  </div>              </li>
+              <li class="wd-content-border wd-content-stories-trending">
+                  <div class="wd-stories-content">
+                  <div class="wd-stories-header">
+                    <p class="wd-stories-fine-print">Trending in Science</p>
+                  </div>
+                  <h3 class="wd-stories-title">Starship</h3>
+                  <p class="wd-stories-fine-print">55.5k Tuits</p>
+                  </div>
+              </li>
+              <li class="wd-content-border wd-content-stories-trending">
+                  <div class="wd-stories-content">
+                      <div class="wd-stories-header">
+                          <img src="../../Example1.png">
+                          <p class="wd-content-stories-author">The New York Times</p>
+                          <p class="wd-stories-date wd-stories-fine-print">Yesterday</p>
+                      </div>
+                      <h3 class="wd-stories-title">Starship</h3>
+                      <p class="wd-stories-fine-print">55.5k Tuits</p>
+                  </div>
+<!--                  <div class="wd-stories-image">-->
+                      <img src="../../Example1.png">
+<!--                  </div>-->
+              </li>
+          </ol>
+      </div>
+
   </div>
 </body>
 </html>
