@@ -1,3 +1,19 @@
+.wd-bookmarks-title {
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+}
+
+.wd-bookmarks-title h1 {
+    margin: 0;
+}
+
+.wd-bookmarks-title p {
+    margin: 0;
+}
+
+
 .wd-content-post {
     color: white;
     list-style: none;
@@ -11,28 +27,95 @@
     justify-content: start;
 }
 
-.wd-content-post img {
+.wd-post-avatar {
     margin-left: 4px;
-    margin-right: 8px;
+    margin-right: 12px;
     border-radius: 50px;
     height: 48px;
     width: 48px;
 }
+.wd-post-header {
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+.wd-content-post-author {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.wd-post-handle, .wd-post-date {
+    margin: 0;
+    color: rgb(110,118, 125);
+    margin-left: 4px;
+}
+
+.wd-post-text {
+    color: white;
+    max-width: 506px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+
+
+.wd-post-embed {
+    border-radius: 12px;
+}
+.wd-post-embed img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    display: block;
+
+}
+
+.wd-post-embed-content {
+    border-top-style: inherit;
+    border-color: inherit;
+    border-width: inherit;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.wd-post-embed-title {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.wd-post-embed-text, .wd-post-embed-link {
+    color: rgb(110,118, 125);
+    padding-top: 4px;
+    margin: 0;
+}
 
 .wd-post-footer {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 64px;
+    margin-top: 12px;
 }
 
-.wd-post-footer li{
-
-    color: lightgray;
+.wd-post-footer li {
     padding: 0;
+    margin-right: 0;
 }
 
-.wd-post-footer li a {
+
+.wd-post-footer-icons {
     text-decoration: none;
+    color: rgb(110,118, 125);
+}
 
+.wd-post-footer .wd-post-footer-liked {
+    color: red;
+}
 
+.wd-post-footer li a span {
+    margin-right: 12px;
 }
