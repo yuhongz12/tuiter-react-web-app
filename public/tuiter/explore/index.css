@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: black;
-    font-family: Calibri, serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 .wd-content {
@@ -27,7 +27,7 @@ body {
     margin-top: 6px;
     margin-bottom: 6px;
     padding: 12px;
-    background-color: darkgray;
+    background-color: rgb(50,50,50);
     color: white;
     flex: 2;
     border-radius: 20px;
@@ -38,7 +38,7 @@ body {
     font-size: 24px;
     padding: 12px;
     text-decoration: none;
-    color: gray;
+    color: white;
 }
 
 .wd-content-nav {
@@ -51,13 +51,26 @@ body {
 
 .wd-content-nav li a {
     display: block;
-    color: gray;
+    color: rgb(110,118,125);
     text-align: center;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     font-size: 15px;
     text-decoration: none;
-    /*TODO: BOLD NAV BAR LINKS*/
+    font-weight: bold;
 
+}
+#wd-nav-items-active {
+    color: rgb(29,161,242);
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-style: solid;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .wd-content-stories {
@@ -72,10 +85,14 @@ body {
     justify-content: space-between;
 }
 
-.wd-content-stories h3 {
+.wd-content-stories h4 {
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+
+
+
 
 .wd-content-stories p {
     margin: 0;
@@ -88,8 +105,8 @@ body {
 }
 
 .wd-stories-header img {
-    height: 100%;
-    width: 13px;
+
+    width: 16px;
     margin-left: 2px;
     margin-right: 2px;
     border-radius: 50px;
@@ -98,6 +115,10 @@ body {
 .wd-stories-header p {
     margin-left: 2px;
     margin-right: 2px;
+}
+
+.wd-content-stories-author {
+    font-weight: bold;
 }
 
 .wd-stories-fine-print {
@@ -109,3 +130,4 @@ body {
     height: 100px;
     width: 100px
 }
+
