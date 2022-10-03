@@ -1,0 +1,38 @@
+.wd-content-post {
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wd-content-post li {
+    padding: 12px;
+    display: flex;
+    justify-content: start;
+}
+
+.wd-content-post img {
+    margin-left: 4px;
+    margin-right: 8px;
+    border-radius: 50px;
+    height: 48px;
+    width: 48px;
+}
+
+.wd-post-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.wd-post-footer li{
+
+    color: lightgray;
+    padding: 0;
+}
+
+.wd-post-footer li a {
+    text-decoration: none;
+
+
+}
