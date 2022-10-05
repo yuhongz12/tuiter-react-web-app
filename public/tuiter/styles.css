@@ -12,7 +12,7 @@ body {
 }
 
 .wd-content-border {
-    border: rgb(47,51,54);
+    border: rgb(47, 51, 54);
     border-width: 1px;
     border-style: solid;
 }
@@ -45,7 +45,7 @@ body {
 .wd-content-nav {
     list-style: none;
     margin: 0;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     padding: 0;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 .wd-stories-fine-print {
-    color: rgb(110,118, 125);
+    color: rgb(110, 118, 125);
     font-size: 13px;
 }
 
