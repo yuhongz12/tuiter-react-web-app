@@ -4,26 +4,47 @@
     <meta charset="UTF-8">
     <title>Explore</title>
 </head>
+
+
+<link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
 <link href="index.css" rel="stylesheet">
 <body>
-<div class="wd-content">
-    <div class="wd-content-border">
-        <div class="wd-content-search">
-            <!--          TODO: REMOVE INLINE CSS-->
-            <input class="wd-content-search-bar" type="text" placeholder="Search Tuiter">
-            <a class="wd-content-search-gear" href="explore-settings.html">&#9881;</a>
+<div class="container">
+    <div class="row">
+
+    <div class="col-2">
+        <ul class="list-group">
+            <li class="list-group-item fw-bold"><i class="fa-brands fa-twitter m-1"></i></li>
+            <li class="list-group-item fw-bold"><i class="fa-solid fa-house-chimney m-1"></i>Home</li>
+            <li class="list-group-item fw-bold active"><i class="fa-solid fa-hashtag m-1"></i>Explore</li>
+            <li class="list-group-item fw-bold"><i class="fa-solid fa-bell m-1"></i>Messages</li>
+            <li class="list-group-item fw-bold"><i class="fa-solid fa-envelope m-1"></i>Bookmarks</li>
+            <li class="list-group-item fw-bold"><i class="fa-solid fa-bookmark m-1"></i>Lists</li>
+            <li class="list-group-item fw-bold"><i class="fa-solid fa-list-ul m-1"></i>Profiles</li>
+            <li class="list-group-item fw-bold"><i class="fa-solid fa-circle-info m-1"></i>More</li>
+        </ul>
+
+        <button class="btn w-100 btn-primary rounded-pill" type="button">Tweet</button>
+    </div>
+
+    <div class="col-6">
+    <div class="">
+        <div class="">
+            <label for="inputfield" class=""><i  class=" fa-solid fa-search"></i></label>
+            <input id="inputfield" class="rounded-pill w-100" type="text" placeholder="Search Tuiter">
+            <a class="text-primary" href="explore-settings.html"><i class="fa-solid fa-gear"></i></a>
 
         </div>
 
 
-        <ul class="wd-content-nav">
-            <li id="wd-nav-items-active" class="wd-content-nav-items wd-nav-items-active"><a"
-                href="#" >For you</a></li>
-            <li class="wd-content-nav-items"><a href="#">Trending</a></li>
-            <li class="wd-content-nav-items"><a href="#">COVID-19</a></li>
-            <li class="wd-content-nav-items"><a href="#">News</a></li>
-            <li class="wd-content-nav-items"><a href="#">Sports</a></li>
-            <li class="wd-content-nav-items"><a href="#">Entertainment</a></li>
+        <ul class="nav nav-tabs">
+            <li class="nav-item" ><a href="#" class="nav-link active fw-semibold">For you</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-semibold">Trending</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-semibold">COVID-19</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-semibold">News</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-semibold">Sports</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-semibold">Entertainment</a></li>
         </ul>
     </div>
 
@@ -31,8 +52,10 @@
 
     </div>
     <div class="wd-content-border">
-        <ol class="wd-content-stories">
-            <li class="wd-content-border wd-content-stories-trending">
+        <img class="img-fluid w-100"
+             src="https://assets.turbologo.com/blog/en/2019/12/19084748/air-jordan-logo-cover.png">
+        <ul class="list-group">
+            <li class="list-group-item">
                 <div class="wd-stories-content">
                     <div class="wd-stories-header">
                         <p class="wd-stories-fine-print">Trending</p>
@@ -41,7 +64,7 @@
                     <p class="wd-stories-fine-print">12k Tuits</p>
                 </div>
             </li>
-            <li class="wd-content-border wd-content-stories-trending">
+            <li class="list-group-item">
                 <div class="wd-stories-content">
                     <div class="wd-stories-header">
                         <p class="wd-stories-fine-print">Trending in Political figures</p>
@@ -50,7 +73,7 @@
                     <p class="wd-stories-fine-print">23k Tuits</p>
                 </div>
             </li>
-            <li class="wd-content-border wd-content-stories-trending">
+            <li class="list-group-item">
                 <div class="wd-stories-content">
                     <div class="wd-stories-header">
                         <p class="wd-stories-header-title wd-stories-fine-print">US elections</p>
@@ -58,10 +81,10 @@
                     </div>
                     <h4 class="wd-stories-title">New York: Election</h4>
                 </div>
-                <img class="wd-stories-image"
+                <img class="w-100"
                      src="https://cdn.vox-cdn.com/thumbor/dQyxmykAGzDAJoMQMTQvmBk3MK8=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/12902929/NY_1_midterms_mashup_abbrv.jpg">
             </li>
-            <li class="wd-content-border wd-content-stories-trending">
+            <li class="list-group-item">
                 <div class="wd-stories-content">
                     <div class="wd-stories-header">
                         <img src="https://i.imgur.com/3h4t6Pl.png">
@@ -74,7 +97,7 @@
                 <img class="wd-stories-image"
                      src="https://slator.com/assets/2021/07/Google-Translation-Machine-Translation-Gender-Bias.png">
             </li>
-            <li class="wd-content-border wd-content-stories-trending">
+            <li class="list-group-item">
                 <div class="wd-stories-content">
                     <div class="wd-stories-header">
                         <p class="wd-stories-header-title wd-stories-fine-print">Sports</p>
@@ -85,7 +108,7 @@
                 <img class="wd-stories-image"
                      src="https://assets.turbologo.com/blog/en/2019/12/19084748/air-jordan-logo-cover.png">
             </li>
-            <li class="wd-content-border wd-content-stories-trending">
+            <li class="list-group-item">
                 <div class="wd-stories-content">
                     <div class="wd-stories-header">
                         <img src="https://pbs.twimg.com/profile_images/1295842645097549830/FJ16ThMG_400x400.jpg">
@@ -96,7 +119,89 @@
                 </div>
                 <img class="wd-stories-image" src="https://sodensustainability.com/img/burns2.jpg">
             </li>
-        </ol>
+        </ul>
+    </div>
+    </div>
+
+        <div class="col-4">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p class="fw-bold">Who to follow</p>
+                </li>
+                <li class="list-group-item">
+                    <div class="row w-100">
+                        <div class="col-2">
+                           <img class="w-100 rounded-circle" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/0a/8cd7f1b14344618b75142593bc7af8/JavaCupLogo800x800.png">
+                        </div>
+                        <div class="col-8">
+                            <a href="#" class="text-decoration-none text-black fw-bold m-1">Java</a><i class="fa-solid fa-check-circle"></i>
+
+                            <p class="text-muted m-0">@Java</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row w-100">
+                        <div class="col-2">
+                            <img class="w-100 rounded-circle" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/j3dbh6kok0dket3uz2vy">
+                        </div>
+                        <div class="col-8">
+                            <a href="#" class="text-decoration-none text-black fw-bold m-1">Relativity Space</a><i class="fa-solid fa-check-circle"></i>
+                            <p class="text-muted m-0">@relativityspace</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row w-100">
+                        <div class="col-2">
+                            <img class="w-100 rounded-circle" src="https://thelogofinder.com/wp-content/uploads/edd/2021/11/virgin-1.svg">
+                        </div>
+                        <div class="col-8">
+                            <a href="#" class="text-decoration-none text-black fw-bold m-1">Virgin Atlantic</a><i class="fa-solid fa-check-circle"></i>
+
+                            <p class="text-muted m-0">@virginatlantic</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row w-100">
+                        <div class="col-2">
+                            <img class="w-100 rounded-circle" src="https://bossierpress.com/wp-content/uploads/2021/03/unnamed.jpg">
+                        </div>
+                        <div class="col-7">
+                            <a href="#" class="text-decoration-none text-black fw-bold m-1">NASA</a><i class="fa-solid fa-check-circle"></i>
+                            <p class="text-muted m-0">@nasa</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row w-100">
+                        <div class="col-2">
+                            <img class="w-100 rounded-circle" src="https://storage.googleapis.com/webdesignledger.pub.network/WDL/12f213e1-t1.jpg">
+                        </div>
+                        <div class="col-8">
+                            <a href="#" class="text-decoration-none text-black fw-bold m-1">Tesla</a><i class="fa-solid fa-check-circle"></i>
+                            <p class="text-muted m-0">@telsa</p>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-primary rounded-pill">Follow</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 
 </div>

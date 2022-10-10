@@ -1,131 +1,131 @@
-body {
-    padding: 0;
-    margin: 0;
-    background-color: black;
-    font-family: "Segoe UI", sans-serif;
-}
+/*body {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    background-color: black;*/
+/*    font-family: "Segoe UI", sans-serif;*/
+/*}*/
 
-.wd-content {
-    margin-left: 16px;
-    margin-right: 16px;
-}
+/*.wd-content {*/
+/*    margin-left: 16px;*/
+/*    margin-right: 16px;*/
+/*}*/
 
-.wd-content-border {
-    border: rgb(47, 51, 54);
-    border-width: 1px;
-    border-style: solid;
-}
+/*.wd-content-border {*/
+/*    border: rgb(47, 51, 54);*/
+/*    border-width: 1px;*/
+/*    border-style: solid;*/
+/*}*/
 
-.wd-content-search {
-    padding: 6px;
-    display: flex;
-}
+/*.wd-content-search {*/
+/*    padding: 6px;*/
+/*    display: flex;*/
+/*}*/
 
-.wd-content-search-bar {
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    padding: 12px;
-    background-color: rgb(50, 50, 50);
-    color: white;
-    flex: 2;
-    border-radius: 20px;
-    border-width: 0;
-}
+/*.wd-content-search-bar {*/
+/*    margin-left: 12px;*/
+/*    margin-right: 12px;*/
+/*    margin-top: 6px;*/
+/*    margin-bottom: 6px;*/
+/*    padding: 12px;*/
+/*    background-color: rgb(50, 50, 50);*/
+/*    color: white;*/
+/*    flex: 2;*/
+/*    border-radius: 20px;*/
+/*    border-width: 0;*/
+/*}*/
 
-.wd-content-search-gear {
-    font-size: 24px;
-    padding: 12px;
-    text-decoration: none;
-    color: white;
-}
+/*.wd-content-search-gear {*/
+/*    font-size: 24px;*/
+/*    padding: 12px;*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
 
-.wd-content-nav {
-    list-style: none;
-    margin: 0;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-}
+/*.wd-content-nav {*/
+/*    list-style: none;*/
+/*    margin: 0;*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*    padding: 0;*/
+/*}*/
 
-.wd-content-nav li a {
-    display: block;
-    color: rgb(110, 118, 125);
-    text-align: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-size: 15px;
-    text-decoration: none;
-    font-weight: bold;
+/*.wd-content-nav li a {*/
+/*    display: block;*/
+/*    color: rgb(110, 118, 125);*/
+/*    text-align: center;*/
+/*    padding-top: 16px;*/
+/*    padding-bottom: 16px;*/
+/*    font-size: 15px;*/
+/*    text-decoration: none;*/
+/*    font-weight: bold;*/
 
-}
+/*}*/
 
-#wd-nav-items-active {
-    color: rgb(29, 161, 242);
-    border-bottom-width: 5px;
-    border-bottom-color: rgb(29, 161, 242);
-    border-bottom-style: solid;
-    text-align: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-size: 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
+/*#wd-nav-items-active {*/
+/*    color: rgb(29, 161, 242);*/
+/*    border-bottom-width: 5px;*/
+/*    border-bottom-color: rgb(29, 161, 242);*/
+/*    border-bottom-style: solid;*/
+/*    text-align: center;*/
+/*    padding-top: 16px;*/
+/*    padding-bottom: 16px;*/
+/*    font-size: 15px;*/
+/*    text-decoration: none;*/
+/*    font-weight: bold;*/
+/*}*/
 
-.wd-content-stories {
-    color: white;
-    list-style: none;
-    padding: 0;
-}
+/*.wd-content-stories {*/
+/*    color: white;*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*}*/
 
-.wd-content-stories li {
-    padding: 12px;
-    display: flex;
-    justify-content: space-between;
-}
+/*.wd-content-stories li {*/
+/*    padding: 12px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
 
-.wd-content-stories h4 {
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
+/*.wd-content-stories h4 {*/
+/*    margin-top: 2px;*/
+/*    margin-bottom: 2px;*/
+/*}*/
 
 
-.wd-content-stories p {
-    margin: 0;
-}
+/*.wd-content-stories p {*/
+/*    margin: 0;*/
+/*}*/
 
-.wd-stories-header {
-    display: flex;
-    justify-content: start;
-    font-size: 13px;
-}
+/*.wd-stories-header {*/
+/*    display: flex;*/
+/*    justify-content: start;*/
+/*    font-size: 13px;*/
+/*}*/
 
-.wd-stories-header img {
+/*.wd-stories-header img {*/
 
-    width: 16px;
-    margin-left: 2px;
-    margin-right: 2px;
-    border-radius: 50px;
-}
+/*    width: 16px;*/
+/*    margin-left: 2px;*/
+/*    margin-right: 2px;*/
+/*    border-radius: 50px;*/
+/*}*/
 
-.wd-stories-header p {
-    margin-left: 2px;
-    margin-right: 2px;
-}
+/*.wd-stories-header p {*/
+/*    margin-left: 2px;*/
+/*    margin-right: 2px;*/
+/*}*/
 
-.wd-content-stories-author {
-    font-weight: bold;
-}
+/*.wd-content-stories-author {*/
+/*    font-weight: bold;*/
+/*}*/
 
-.wd-stories-fine-print {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-}
+/*.wd-stories-fine-print {*/
+/*    color: rgb(110, 118, 125);*/
+/*    font-size: 13px;*/
+/*}*/
 
-.wd-stories-image {
-    height: 100px;
-    width: 100px
-}
+/*.wd-stories-image {*/
+/*    height: 100px;*/
+/*    width: 100px*/
+/*}*/
 
