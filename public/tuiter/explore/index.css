@@ -1,3 +1,13 @@
+.wd-search-move {
+    top: 7px;
+    left: 28px;
+}
+
+.wd-tweet-button {
+    min-width: max-content;
+}
+
+
 /*body {*/
 /*    padding: 0;*/
 /*    margin: 0;*/
