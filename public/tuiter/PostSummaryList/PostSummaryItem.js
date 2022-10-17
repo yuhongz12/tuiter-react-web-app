@@ -14,7 +14,11 @@ const PostSummaryItem = (post) => {
                                 </div>
                                 <span class="fw-bold">${post.title}</span>
                                 <div>
-                                    <span class="text-muted m-0">${post.tweets}</span>
+                                  
+                                    ${ typeof post.tweets !== "undefined" ?
+    `<span class="text-muted m-0">${post.tweets} Tweets</span>` :
+    ``
+    }
                                 </div>
                             </div>
                             <div class="col-3 col-xxl-2 col-md-2 col-sm-3 ps-0">
