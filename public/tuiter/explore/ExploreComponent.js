@@ -23,7 +23,7 @@ const ExploreComponent = () => {
            <!-- image with overlaid text -->
            <div class="position-relative mb-2">
                     <span class="position-absolute m-2 text-white h2 fw-bold bottom-0">SpaceX's Starship</span>
-                    <img class="w-100" src="../../images/sharship.webp">
+                    <img class="w-100" src="../../images/starship.webp">
 
            </div>
            ${PostSummaryList()}
