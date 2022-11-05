@@ -1,4 +1,3 @@
-import Nav from "../../nav";
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput
@@ -11,7 +10,6 @@ function Assignment6() {
     return (
         <div>
             <div>
-                <Nav/>
                 <h1>Assignment 6</h1>
                 <TodoList/>
                 <TodoItem/>
