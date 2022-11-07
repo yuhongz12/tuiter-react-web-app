@@ -6,7 +6,7 @@ import {useSelector} from "react-redux";
 const TuitsList = () => {
     const tuitsArray = useSelector(state => state.tuits);
     return(
-        <ul className={'list-group'}>
+        <ul className={'list-group mb-3'}>
             {
                 tuitsArray.map(t => <TuitItem key={t._id} tuit={t}/>)
             }
