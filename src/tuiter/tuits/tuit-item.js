@@ -32,20 +32,12 @@ const TuitItem = ({tuit ={
                     <div>
                         <i className="bi bi-x-lg float-end"
                            onClick={() => deleteTuitHandler(tuit._id)}></i>
-                        <span className={'fw-bold'}>{tuit.userName}</span>
+                        <span className={'fw-bold'}>{tuit.username}</span>
                         <span className={'ms-1'}>{tuit.handle}</span>
                         <span className={'ms-1'}>&middot;</span>
                         <span className={'ms-1'}>{tuit.time}</span>
                     </div>
                     <p className="wd-post-text">{tuit.tuit}</p>
-                    <div>
-                        Likes: {tuit.likes}
-                        <i onClick={() => dispatch(updateTuitThunk({
-                            ...tuit,
-                            likes: tuit.likes + 1
-                        }))}
-                           className="bi bi-heart-fill me-2 text-danger"></i>
-                    </div>
                     <TuitStats tuit={tuit}/>
                 </div>
             </div>
