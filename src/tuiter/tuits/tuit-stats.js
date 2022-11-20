@@ -25,6 +25,7 @@ const TuitStats = ({tuit ={
                 <span className={'ms-2'}>{tuit.retuits}</span>
             </div>
             <div className={'col-3'}>
+
                 <i className={tuit.liked? "bi bi-heart-fill text-danger" : "bi bi-heart"}></i>
                 <span className={'ms-2'}>{tuit.likes}</span>
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk, updateTuitThunk} from "../services/tuits-thunks";
 
 const TuitItem = ({tuit ={
     "_id": 234,
@@ -19,7 +19,7 @@ const TuitItem = ({tuit ={
 }}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return (
@@ -38,6 +38,14 @@ const TuitItem = ({tuit ={
                         <span className={'ms-1'}>{tuit.time}</span>
                     </div>
                     <p className="wd-post-text">{tuit.tuit}</p>
+                    <div>
+                        Likes: {tuit.likes}
+                        <i onClick={() => dispatch(updateTuitThunk({
+                            ...tuit,
+                            likes: tuit.likes + 1
+                        }))}
+                           className="bi bi-heart-fill me-2 text-danger"></i>
+                    </div>
                     <TuitStats tuit={tuit}/>
                 </div>
             </div>
